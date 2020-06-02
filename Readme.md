@@ -2,10 +2,10 @@
 
 1 - install tls certificate to dotnet core store
 
-# install tool
+install tool
 dotnet tool install --global dotnet-certificate-tool
 
-#install certificate
+install certificate
 certificate-tool add --file ./iis_2020.pfx  --password 1 --thumbprint 61a5818f40baed9207a92ad79a885c5d5f8f9e82
 
 2 - install tls certificate to cp store
